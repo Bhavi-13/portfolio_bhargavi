@@ -1,0 +1,80 @@
+.project-title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.startup-project-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem 1rem;
+}
+/* Add this to your Project.scss file */
+
+.project-card {
+  position: relative;
+
+  .project-image {
+    cursor: pointer;
+    overflow: hidden;
+
+    img {
+      height: auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+
+    img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  }
+
+  &.lightbox-open {
+    .lightbox {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .repo-cards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
