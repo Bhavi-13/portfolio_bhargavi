@@ -22,7 +22,7 @@ const greeting = {
     "A passionate Mern Stack Software Developer 🚀 having an experience of building Websites interactive with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1btCV67x7a9QDBuePykIwtaeR1PuD4yLb/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1M3Dn7dzvKGvfnoV4Y_4sURAJaURsxCMy/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -156,7 +156,7 @@ const workExperiences = {
       role: "Software Developer Intern",
       company: "Tech Synergia",
       companylogo: require("./assets/images/tech synergia-logo.png"),
-      date: "July 2023 - September 2023",
+      date: "July 2023 - January 2024",
       desc: "I am grateful for the opportunity to contribute to the innovative projects at Tech Synergia and look forward to leveraging this experience in my future endeavors.",
       descBullets: [
         "Successful Implementation of Various Projects",
@@ -263,7 +263,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/15tJeHbKZ6-NK8nOPZWm-z4McihI8JOjQ/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1-zFSBdYlxFWXJFksm3vlVyk0db0VNl3V/view?usp=sharing"
         }
       ]
     },
@@ -275,7 +275,7 @@ const achievementSection = {
       imageAlt: "Internship",
       footerLink: [
         {name: "Certification", 
-        url: "https://drive.google.com/file/d/1-fYdm0-SiqIH9sPUzyj24plPpIUgixmi/view?usp=sharing"},
+        url: "https://drive.google.com/file/d/1l6rI9OFn_3ipJNTEhO_bU1oyNVCOTsaX/view?usp=sharing"},
       ]
     }
   ],
